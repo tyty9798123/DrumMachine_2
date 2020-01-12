@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432B3C1C23A8CC7E002EE063 /* PBDrumVoicePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B3C1B23A8CC7E002EE063 /* PBDrumVoicePlayer.swift */; };
+		432B3C2923A96E75002EE063 /* HighTom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 432B3C2123A96E75002EE063 /* HighTom.wav */; };
+		432B3C2A23A96E75002EE063 /* BassDrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 432B3C2223A96E75002EE063 /* BassDrum.wav */; };
+		432B3C2B23A96E75002EE063 /* Ride.wav in Resources */ = {isa = PBXBuildFile; fileRef = 432B3C2323A96E75002EE063 /* Ride.wav */; };
+		432B3C2C23A96E75002EE063 /* Snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 432B3C2423A96E75002EE063 /* Snare.wav */; };
+		432B3C2D23A96E75002EE063 /* FloorTom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 432B3C2523A96E75002EE063 /* FloorTom.wav */; };
+		432B3C2F23A96E75002EE063 /* HiHatsClose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 432B3C2723A96E75002EE063 /* HiHatsClose.wav */; };
+		432B3C3023A96E75002EE063 /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 432B3C2823A96E75002EE063 /* Crash.wav */; };
+		432B3C3423A9801E002EE063 /* PBTicTacService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B3C3323A9801E002EE063 /* PBTicTacService.swift */; };
 		4365483823A76D0A000E5B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4365483723A76D0A000E5B83 /* AppDelegate.swift */; };
 		4365483A23A76D0A000E5B83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4365483923A76D0A000E5B83 /* SceneDelegate.swift */; };
-		4365483C23A76D0A000E5B83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4365483B23A76D0A000E5B83 /* ViewController.swift */; };
+		4365483C23A76D0A000E5B83 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4365483B23A76D0A000E5B83 /* MainViewController.swift */; };
 		4365483F23A76D0A000E5B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4365483D23A76D0A000E5B83 /* Main.storyboard */; };
 		4365484123A76D0C000E5B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4365484023A76D0C000E5B83 /* Assets.xcassets */; };
 		4365484423A76D0C000E5B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4365484223A76D0C000E5B83 /* LaunchScreen.storyboard */; };
+		4365484C23A76E5F000E5B83 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4365484B23A76E5F000E5B83 /* IntroViewController.swift */; };
+		4365484E23A76E98000E5B83 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4365484D23A76E98000E5B83 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		432B3C1B23A8CC7E002EE063 /* PBDrumVoicePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBDrumVoicePlayer.swift; sourceTree = "<group>"; };
+		432B3C2123A96E75002EE063 /* HighTom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HighTom.wav; sourceTree = "<group>"; };
+		432B3C2223A96E75002EE063 /* BassDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BassDrum.wav; sourceTree = "<group>"; };
+		432B3C2323A96E75002EE063 /* Ride.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ride.wav; sourceTree = "<group>"; };
+		432B3C2423A96E75002EE063 /* Snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Snare.wav; sourceTree = "<group>"; };
+		432B3C2523A96E75002EE063 /* FloorTom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FloorTom.wav; sourceTree = "<group>"; };
+		432B3C2723A96E75002EE063 /* HiHatsClose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HiHatsClose.wav; sourceTree = "<group>"; };
+		432B3C2823A96E75002EE063 /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
+		432B3C3323A9801E002EE063 /* PBTicTacService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBTicTacService.swift; sourceTree = "<group>"; };
 		4365483423A76D0A000E5B83 /* DrumMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4365483723A76D0A000E5B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4365483923A76D0A000E5B83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4365483B23A76D0A000E5B83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4365483B23A76D0A000E5B83 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4365483E23A76D0A000E5B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4365484023A76D0C000E5B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4365484323A76D0C000E5B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4365484523A76D0C000E5B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4365484B23A76E5F000E5B83 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		4365484D23A76E98000E5B83 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		432B3C2023A96E75002EE063 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				432B3C2123A96E75002EE063 /* HighTom.wav */,
+				432B3C2223A96E75002EE063 /* BassDrum.wav */,
+				432B3C2323A96E75002EE063 /* Ride.wav */,
+				432B3C2423A96E75002EE063 /* Snare.wav */,
+				432B3C2523A96E75002EE063 /* FloorTom.wav */,
+				432B3C2723A96E75002EE063 /* HiHatsClose.wav */,
+				432B3C2823A96E75002EE063 /* Crash.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		4365482B23A76D09000E5B83 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +92,18 @@
 		4365483623A76D0A000E5B83 /* DrumMachine */ = {
 			isa = PBXGroup;
 			children = (
+				432B3C2023A96E75002EE063 /* Sounds */,
 				4365483723A76D0A000E5B83 /* AppDelegate.swift */,
 				4365483923A76D0A000E5B83 /* SceneDelegate.swift */,
-				4365483B23A76D0A000E5B83 /* ViewController.swift */,
+				4365483B23A76D0A000E5B83 /* MainViewController.swift */,
 				4365483D23A76D0A000E5B83 /* Main.storyboard */,
 				4365484023A76D0C000E5B83 /* Assets.xcassets */,
 				4365484223A76D0C000E5B83 /* LaunchScreen.storyboard */,
 				4365484523A76D0C000E5B83 /* Info.plist */,
+				4365484B23A76E5F000E5B83 /* IntroViewController.swift */,
+				4365484D23A76E98000E5B83 /* SettingsViewController.swift */,
+				432B3C1B23A8CC7E002EE063 /* PBDrumVoicePlayer.swift */,
+				432B3C3323A9801E002EE063 /* PBTicTacService.swift */,
 			);
 			path = DrumMachine;
 			sourceTree = "<group>";
@@ -125,8 +166,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432B3C2D23A96E75002EE063 /* FloorTom.wav in Resources */,
+				432B3C2B23A96E75002EE063 /* Ride.wav in Resources */,
 				4365484423A76D0C000E5B83 /* LaunchScreen.storyboard in Resources */,
+				432B3C2F23A96E75002EE063 /* HiHatsClose.wav in Resources */,
 				4365484123A76D0C000E5B83 /* Assets.xcassets in Resources */,
+				432B3C2923A96E75002EE063 /* HighTom.wav in Resources */,
+				432B3C2A23A96E75002EE063 /* BassDrum.wav in Resources */,
+				432B3C2C23A96E75002EE063 /* Snare.wav in Resources */,
+				432B3C3023A96E75002EE063 /* Crash.wav in Resources */,
 				4365483F23A76D0A000E5B83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4365483C23A76D0A000E5B83 /* ViewController.swift in Sources */,
+				432B3C3423A9801E002EE063 /* PBTicTacService.swift in Sources */,
+				4365483C23A76D0A000E5B83 /* MainViewController.swift in Sources */,
 				4365483823A76D0A000E5B83 /* AppDelegate.swift in Sources */,
 				4365483A23A76D0A000E5B83 /* SceneDelegate.swift in Sources */,
+				4365484E23A76E98000E5B83 /* SettingsViewController.swift in Sources */,
+				4365484C23A76E5F000E5B83 /* IntroViewController.swift in Sources */,
+				432B3C1C23A8CC7E002EE063 /* PBDrumVoicePlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DrumMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DrumMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

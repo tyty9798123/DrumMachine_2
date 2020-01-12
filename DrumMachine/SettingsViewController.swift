@@ -10,13 +10,25 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var currentEditingPlayerNameLabel: UILabel!
+    
+    var currentEditingPlayer : PBDrumVoicePlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        currentEditingPlayerNameLabel.text = self.currentEditingPlayer?.voiceType.rawValue
     }
     
-
+    @IBAction func dismissButtonClicked(_ sender: UIButton) {
+        
+        self.dismiss(animated: true) {
+            print("After Settings page dismiss")
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
